@@ -2,14 +2,14 @@
 
 **Backend Setup**
 
-1.  **`php artisan key:generate`**:
+1.  **`composer install`**:
+    Installs PHP dependencies defined in composer.json.
+
+2.  **`php artisan key:generate`**:
      Creates a unique security key for the application.
 
-2.  **`php artisan migrate`**:
+3.  **`php artisan migrate`**:
     Runs database migrations to set up the database tables.
-
-3.  **`composer install`**:
-    Installs PHP dependencies defined in composer.json.
 
 **Frontend Setup**
 
@@ -24,7 +24,7 @@
 7.  **`npm install && npm run dev`**:
     Installs all JavaScript dependencies and starts the frontend development server with hot reloading.
 
-**Starting the Backend Server:**
+ **Starting the Server:**
 
 8.  **`php artisan serve`**:
    It allows you to access server at `http://localhost:8000`.
