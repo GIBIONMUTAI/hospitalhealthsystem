@@ -13,14 +13,15 @@
 
 **Frontend Setup**
 
-4.  **`npm run build`**:
-    Compiles frontend assets for production.
-
-5.  **`npm install --save-dev @vitejs/plugin-vue`**:
+4.  **`npm install --save-dev @vitejs/plugin-vue`**:
     Installs the Vue.js plugin for Vite (development dependency).
 
-6.  **`npm install --save-dev vite laravel-vite-plugin`**:
+5.  **`npm install --save-dev vite laravel-vite-plugin`**:
     Installs Vite and its Laravel integration plugin (development dependencies).
+
+6.  **`npm run build`**:
+    Compiles frontend assets for production.
+
 7.  **`npm install && npm run dev`**:
     Installs all JavaScript dependencies and starts the frontend development server with hot reloading.
 
